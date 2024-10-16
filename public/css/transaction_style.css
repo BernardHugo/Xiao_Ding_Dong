@@ -1,0 +1,80 @@
+body {
+    background-image: url('../images/black-background.png');
+    background-size: cover;
+}
+
+* {
+    margin: 0 auto;
+}
+
+.header {
+    margin-left: 13%;
+    width: auto;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+table {
+    width: 1000px;
+    text-align: center;
+    margin-bottom: 25%;
+    margin-top: 20px;
+}
+
+th {
+    border: 1px solid black !important;
+    text-align: center;
+    padding: 8px;
+    width: 300px;
+    color: yellow;
+    background-color: black;
+}
+
+td {
+    border: 2px solid black !important;
+    text-align: center;
+    padding: 8px;
+    width: 300px;
+    color: white;
+    background-color: rgb(56, 55, 55);
+    font-weight: bold;
+}
+
+.button {
+    background-color: black !important;
+    color: yellow;
+    border: none;
+    font-weight: bold;
+    height: 40px;
+    width: auto;
+}
+
+.footer-container {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+
+.account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: auto;
+    height: auto;
+}
+
+.empty-container {
+    width: 75%;
+    margin-top: 20px;
+    padding: 30px;
+    height: 150px;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 390px;
+}

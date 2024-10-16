@@ -1,0 +1,49 @@
+body {
+    background-color: black !important;
+    background-size: cover;
+}
+
+* {
+    color: white;
+    margin: auto auto auto 0;
+}
+
+h1 {
+    font-family: 'Times New Roman';
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.form-body {
+    display: flex;
+}
+
+.form-label{
+    color: white;
+}
+
+.image {
+    max-width: 1030px;
+    max-height: auto;
+    background-position: left;
+    background-size: cover;
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+a {
+    color: yellow !important;
+    text-decoration: none !important;
+}

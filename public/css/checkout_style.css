@@ -1,0 +1,87 @@
+body {
+    background-image: url('../images/black-background.png');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: auto;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+.title-container {
+    background-color: black;
+    text-align: center;
+    width: 800px;
+    height: auto;
+}
+
+.button-container {
+    display: flex;
+    width: 55%;
+    height: auto;
+    justify-content: right;
+    gap: 20px;
+}
+
+.checkout-form {
+    display: inline-block;
+    width: 100%;
+    margin-left: 23%;
+}
+
+.billing-container {
+    width: 800px;
+    display: inline-block;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+}
+
+.input-form {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.input-form label {
+    background-color: #000000;
+    color: yellow;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+.input-form input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.additional-container {
+    width: 800px;
+    display: inline-block;
+}
+
+.cancel-button {
+    background-color: black;
+    color: yellow;
+    border: none;
+    height: 30px;
+    width: 70px;
+}
+
+.order-button {
+    background-color: black;
+    color: yellow;
+    border: none;
+    height: 30px;
+    width: 110px;
+}

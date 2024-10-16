@@ -1,0 +1,36 @@
+.dropdown-box {
+    margin-top: 10px;
+    position: relative;
+    width: 260px;
+    display: inline-block;
+}
+
+.dropdown-button {
+    background-color: black;
+    border: none;
+    display: flex;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: #323232;
+    right: 0;
+    min-width: 160px;
+}
+
+.dropdown-box:hover .dropdown-list {
+    display: inline-block;
+}
+
+.dropdown-list a {
+    color: yellow;
+    font-weight: bold;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 8px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
